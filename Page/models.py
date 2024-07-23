@@ -8,3 +8,5 @@ class Datas(models.Model):
     level=models.IntegerField(("Level"))
     def __str__(self) -> str:
         return self.name
+    
+class Users(models.Model)
